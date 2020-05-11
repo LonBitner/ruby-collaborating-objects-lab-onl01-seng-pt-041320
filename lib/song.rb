@@ -22,6 +22,6 @@ class Song
   end
   
   def self.all
-    @@all
+    @@all << song
   end
 end 
