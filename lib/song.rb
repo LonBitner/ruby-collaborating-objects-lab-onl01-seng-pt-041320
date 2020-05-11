@@ -23,7 +23,7 @@ class Song
   end
   
   def Song.all
-    @@all << name
+    @@all << self
     
   end
 end 
