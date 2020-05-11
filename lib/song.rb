@@ -23,6 +23,6 @@ class Song
   end
   
   def self.all
-    Song.each
+    Song
   end
 end 
