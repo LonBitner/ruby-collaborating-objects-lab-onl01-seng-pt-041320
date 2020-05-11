@@ -23,6 +23,7 @@ class Song
   end
   
   def self.all
-    Song.all.count
+    Song
+    
   end
 end 
