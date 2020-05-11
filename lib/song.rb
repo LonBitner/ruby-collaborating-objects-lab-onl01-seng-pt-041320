@@ -23,7 +23,7 @@ class Song
   end
   
   def Song.all
-    Song
+    @@all
     
   end
 end 
